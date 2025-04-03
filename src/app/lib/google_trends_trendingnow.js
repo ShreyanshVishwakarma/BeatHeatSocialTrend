@@ -9,7 +9,7 @@ if (!apiKey) {
 
 async function getGoogleTrendsTrendingNow(geo = "IN") {
 getJson({
-  api_key: "57ccaad1d3ffcdc09d78eff229aec75763e6c2a5eb60192038152836f0715353",
+  api_key: apikey,
   engine: "google_trends_trending_now",
   geo: "US"
 }, (json) => {
